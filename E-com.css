@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color:rgb(201, 188, 179); */
+}
+
+.imagelogo {
+  border: solid rgb(212, 70, 70);
+  border-radius: 20px;
+}
+
+.navbar {
+  display: flex;
+  padding: 15px;
+  /*border: 5px solid red;*/
+  justify-content: space-between;
+}
+
+.list {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Source Serif Pro', serif;
+  color: rgb(10, 9, 9);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:auto;
+  max-width:100%;
+  border:2px solid black;
+}
+
+.main1{
+  display:flex;
+ /* border: 7px solid green;*/
+  margin-top: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.quote{
+  margin: 10% 6%;
+  font-family: 'Allison', cursive;
+  font-size:35px;
+
+
+
+}
+.topimage {
+
+  margin-right: 40px;
+}
+
+.btn1{
+
+
+font-size: 20px;
+border-radius: 30px;
+padding:7px;
+border-color: hotpink;
+background-color: lavenderblush;
+color: rgb(118, 118, 235);
+margin:5px 0px;
+font-family: cursive;
+
+}
+
+.btn1:hover{
+background:plum ;
+}
+
+.categories{
+display: flex;
+margin-top:70px;
+justify-content: space-evenly;
+
+
+
+}
+.fproducts{
+  display: flex;
+  margin-top: 60px;
+  /* border: 5px solid black; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+.ftitle{
+text-align: center;
+margin-top: 100px;
+color: purple;
+font-family: 'Source Serif Pro', serif;
+
+
+}
+
+.C2:hover{
+  transform: translateY(-10px);
+
+}
+
+.C2 p{
+  font-size:20px;
+  font-weight: bold;
+}
+
+.fa{
+  color: orangered;
+}
+
+  .saleofweek{
+display:flex;
+margin-top:60px;
+justify-content: center;
+padding:80px;
+align-items: center;
+justify-content:space-evenly;
+
+
+  }
+
+  .saleofweek img {
+    border:5px white;
+    border-radius: 500px;
+    padding: 50px;
+  }
+    
+  .saleofweek :hover {
+    transform: translateY(-10px);
+  }
+
+  
+
+  .offercontent{
+    font-family: 'Allison', cursive;
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+.P1{
+  text-decoration: line-through;
+}
+.Homereview{
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+  justify-content: space-evenly;
+  text-align: center;
+}
+.CD3 img{
+  border-radius: 50%;
+}
+
+.CD3{
+  box-shadow:0 0 20px 0px blanchedalmond;
+}
+.CD3:hover{
+transform: translateY(-10px);
+}
+
+  .companylogos{
+    display: flex;
+    justify-content:center;
+    /* border: 2px solid black; */
+    flex-direction: row;
+    margin-top:100px;
+    margin-bottom: 100px;
+  }
+
+  .uname{
+    font-weight: bold;
+  }
+
+  .companylogos img {
+    padding: 70px;
+  }
+
+  .footer{
+    background-color: black;
+  }
+.footer1{
+   color:white;
+ display: flex;
+ height: 400px;
+ /* justify-content: space-evenly; */
+ border: 5px solid black;
+ justify-content:unset;
+}
+.download{ 
+  margin-top:30px;
+  margin-left: 2%;
+  margin-right: 0%;
+  /* border: 2px solid red; */
+  padding: 20px;
+ } 
+ .download h3 {
+   color: white;
+ }
+ .footerlink{
+font-weight: bold;
+font-size: 20px;
+margin-top: 7%;
+margin-left: 5%;
+color: black;
+ /* padding: 20px;  */
+}
+
+.footerlink a{
+  color:white;
+}
+
+.footerlink2{
+  font-weight: bold;
+font-size: 20px;
+margin-top: 5%;
+margin-left: 5%;
+ padding: 20px; 
+ text-align: center;
+
+}
+
+.footerlink2 a{
+  color:white;
+}
+  
+  .footerlogo{
+    display: flex;
+    flex-direction: row;
+   align-items: flex-end;
+   /* justify-content: flex end; */
+      /* border: 2px solid red;   */
+    
+  }
+  
+.footerpay p{
+  font-weight: bold;
+  font-size: 20px;
+}
+.cpr p{
+  color: white;
+  text-align: center;
+}
+
