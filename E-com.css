@@ -5,6 +5,14 @@
   /* background-color:rgb(201, 188, 179); */
 }
 
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:auto;
+  max-width:100%;
+  border:2px solid black;
+}
+
 .imagelogo {
   border: solid rgb(212, 70, 70);
   border-radius: 20px;
@@ -13,10 +21,9 @@
 .navbar {
   display: flex;
   padding: 15px;
-  /*border: 5px solid red;*/
-  justify-content: space-between;
-}
-
+  /* border: 5px solid red; */
+    justify-content: space-between;
+  }
 .list {
   list-style-type: none;
   display: inline-block;
@@ -32,16 +39,16 @@ li {
   font-weight: bold;
 }
 
+  .menuicon{
+    /* display: inline-block; */
+    display: none;
+  }
+  
+
 a {
   text-decoration: none;
 }
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin:auto;
-  max-width:100%;
-  border:2px solid black;
-}
+
 
 .main1{
   display:flex;
@@ -57,12 +64,10 @@ a {
   font-family: 'Allison', cursive;
   font-size:35px;
 
-
-
 }
 .topimage {
 
-  margin-right: 40px;
+  margin:auto;
 }
 
 .btn1{
@@ -88,15 +93,19 @@ display: flex;
 margin-top:70px;
 justify-content: space-evenly;
 
-
-
 }
+.C1 img{
+  height: 400px;
+}
+
+
 .fproducts{
   display: flex;
   margin-top: 60px;
   /* border: 5px solid black; */
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   
 }
 
@@ -111,7 +120,10 @@ font-family: 'Source Serif Pro', serif;
 
 .C2:hover{
   transform: translateY(-10px);
+}
 
+.C2 img{
+  height: 350px;
 }
 
 .C2 p{
@@ -123,9 +135,11 @@ font-family: 'Source Serif Pro', serif;
   color: orangered;
 }
 
+/* sales of the week */
+
   .saleofweek{
 display:flex;
-margin-top:60px;
+margin-top:40px;
 justify-content: center;
 padding:80px;
 align-items: center;
@@ -136,8 +150,8 @@ justify-content:space-evenly;
 
   .saleofweek img {
     border:5px white;
-    border-radius: 500px;
-    padding: 50px;
+    /* border-radius: 700px; */
+    padding: 70px;
   }
     
   .saleofweek :hover {
@@ -150,17 +164,21 @@ justify-content:space-evenly;
     font-family: 'Allison', cursive;
     font-weight: bold;
     font-size: 30px;
+    margin-left:-20px;
 
   }
 .P1{
   text-decoration: line-through;
 }
+
+
+/* Reviews */
 .Homereview{
   display: flex;
   flex-direction: row;
-  /* border: 2px solid black; */
   justify-content: space-evenly;
   text-align: center;
+  flex-wrap: wrap;
 }
 .CD3 img{
   border-radius: 50%;
@@ -172,6 +190,7 @@ justify-content:space-evenly;
 .CD3:hover{
 transform: translateY(-10px);
 }
+/* componies logos */
 
   .companylogos{
     display: flex;
@@ -187,72 +206,333 @@ transform: translateY(-10px);
   }
 
   .companylogos img {
-    padding: 70px;
+    padding: 80px;
   }
 
-  .footer{
-    background-color: black;
-  }
+   /* footer */
+.footer{
+  background-color: black;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 .footer1{
-   color:white;
- display: flex;
- height: 400px;
- /* justify-content: space-evenly; */
- border: 5px solid black;
- justify-content:unset;
-}
-.download{ 
-  margin-top:30px;
-  margin-left: 2%;
-  margin-right: 0%;
-  /* border: 2px solid red; */
-  padding: 20px;
- } 
- .download h3 {
-   color: white;
- }
- .footerlink{
-font-weight: bold;
-font-size: 20px;
-margin-top: 7%;
-margin-left: 5%;
-color: black;
- /* padding: 20px;  */
+  display: flex;
+  margin:0px 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.footerlink a{
+.footeritem{
+color: white;
+margin: 20px auto;
+font-size:18px;
+font-family: 'Source Serif Pro', serif;
+}
+
+.footeritem a{
   color:white;
-}
-
-.footerlink2{
-  font-weight: bold;
-font-size: 20px;
-margin-top: 5%;
-margin-left: 5%;
- padding: 20px; 
- text-align: center;
+  text-decoration: none;
 
 }
+.footeritem1 img{
+padding: 10px;
+}
 
-.footerlink2 a{
-  color:white;
+.email-input{
+  border-radius: 5px;
+  width: 180px;
+  height: 30px;
+  margin:4px auto;
 }
-  
-  .footerlogo{
-    display: flex;
-    flex-direction: row;
-   align-items: flex-end;
-   /* justify-content: flex end; */
-      /* border: 2px solid red;   */
-    
-  }
-  
-.footerpay p{
-  font-weight: bold;
-  font-size: 20px;
+
+.email-btn{
+  border-radius: 5px;
+  height: 30px;
+  width: 60px;
+  margin:4px auto;
+ background-color: aqua;
+ border: 2px solid aqua;
 }
-.cpr p{
+.email-btn:hover{
+  background-color:pink;
+  border: pink;
+}
+
+
+.footerpay{
+  display: flex;
+  justify-content:end;
   color: white;
+  
+}
+
+.footerpay img{
+  padding:10px;
+}
+
+.weaccept p{
+color: white;
+margin-right: 10vw;
+text-align:right;
+font-size:18px;
+font-family: 'Source Serif Pro', serif;
+font-weight: bold;
+}
+
+.cpr p{
+  color:white;
   text-align: center;
 }
 
+  
+
+
+/* media query for navbar */
+
+
+  @media screen and (max-width: 480px){
+    .menuicon{
+      display:block;
+      position:relative;
+      margin-top: 10px;
+    /* border:2px solid red; */
+  }
+
+  
+ .list li{
+  display:block;
+  /* width: 100%; */
+}
+
+  .imagelogo {
+    width: 60px;
+    display: block;
+  }
+  
+.list{ 
+  /* border:5px solid rgb(10, 9, 9); */
+  margin-top: 5px;
+  background-color:pink;
+  width: 100%;
+  margin-left:0px;
+  display: block;
+  display: none;
+}
+  .topimage{
+    
+    display:none
+  }
+  .categories{
+    margin-top:20px;
+  }
+
+  .C1 img{ 
+    width: 25vw;
+    height: auto;}
+   
+
+  .btn1{
+    font-size: 10px;}
+
+    /* feature products */
+
+.C2 {
+  margin-top:25px;
+}
+
+  /* sale of the week */
+
+ .saleofweek{
+   width: 100%;
+   /* border:5px solid red; */
+   margin-top:0px;
+ }   
+
+ .saleofweek img{
+   height:300px;
+   margin-left: -30px;
+   /* border: 2px solid red; */
+   margin-top: -70px;
+ }
+   .offercontent{
+font-size: 20px;
+margin-top: 0px;
+   }
+
+
+
+/* Reviews */
+   .homereview{
+     margin-top: 80px;
+   }
+
+/* company's name */
+
+.companylogos img{
+  height: 50px;
+  /* margin-left:-50px; */
+  padding: 10px;
+  /* border: 2px solid green; */
+
+}
+
+
+/* footer */
+.footer1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footerpay img{
+height: 25px;
+padding:2px;
+}
+
+}
+  /* Media query for 481 to 768*/
+@media (min-width:481px) and (max-width:768px){
+
+  .menuicon{
+    display:block;
+    position:relative;
+    margin-top: 10px;
+}
+
+
+.list li{
+display:block;
+}
+
+.imagelogo {
+  width: 80px;
+  display: block;
+}
+
+.list{ 
+/* border:5px solid rgb(10, 9, 9); */
+margin-top: 5px;
+background-color:pink;
+width: 100%;
+margin-left:0px;
+display: block;
+display: none;
+}
+
+.topimage{
+  width: 75vw;
+}
+
+  .topimage img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  .categories{
+    margin-top:20px;
+  }
+  .C1 img{ 
+ width: 25vw;
+ height: auto;
+
+  }
+
+  .btn1{
+    font-size: 10px;}
+
+/* feature products */
+    .C2{
+      margin-top: 25px;
+      padding: 10px;
+      
+    }
+/* sales of the week */
+    
+  .saleofweek img{
+    height:300px;
+    margin-left: -30px;
+    /* border: 2px solid red; */
+    margin-top: -70px;
+  }
+    .offercontent{
+ font-size: 20px;
+ margin-top: 0px;
+    }
+
+ /* review section */
+
+    .CD3{
+      margin: 10px;
+    }
+
+  /* company's name */
+
+  .companylogos img{
+    height: 50px;
+    padding: 5px;
+    margin: 5px;
+  
+  }
+
+  /* footer */
+.footer1{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footerpay img{
+height: 25px;
+padding:2px;
+}
+
+
+  
+}
+  
+ /* media querry for 769 to 1024 */
+
+ @media (min-width:769px) and ( max-width: 1024px){
+
+  .categories{
+    margin-top:80px;
+  }
+
+  .C1 img{ 
+    width: 25vw;
+    height: auto;}
+
+    /* sales of the week */
+   
+    .saleofweek img{
+      height:300px;
+      margin-left: -30px;
+      /* border: 2px solid red; */
+      margin-top: -70px;
+    }
+      .offercontent{
+   font-size: 20px;
+   margin-top: 0px;
+      }
+
+      /* reviews */
+
+.CD3{
+  margin: 15px;
+}
+/* company's name */
+
+.companylogos img{
+  height: 50px;
+  padding: 2px;
+  margin: 10px;
+}
+
+.footeritem{
+  margin: 20px 10px;
+}
+
+ }
